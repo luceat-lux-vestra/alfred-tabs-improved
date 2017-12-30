@@ -1,6 +1,7 @@
 ## Changes
 
 > Feature support `Firefox`, `Opera` with browser extension.  
+> Update list all tabs first you input keyword `t`, which means `argument optional` in Alfred  
 > Update supported browsers work with JXA(applescript) e.g `Yandex`, `Vivaldi` and variants of `Safari` and `Chrome`.  
 > Change use app's default icon.  
 > Change JXA app activation with file path instead of app name.  
