@@ -9,6 +9,7 @@
 ## Caveats
 > Install browser extension manually.  
 > somewhat messy and basic  
+> installation size is bigger than original one. because of `uws`, it takes about `10 MB` alone.
 > Firefox rises again, after `Quantum` launched. (but I'll stick with `Chrome`)
 
 ## Epilogue
@@ -17,13 +18,13 @@
 
 # <div align="center"><img src="./icon.png" width=256><br>alfred-tabs</div>
 
-> :mag: Find Chrome/Safari tabs you want easily
+> :mag: Find browser tabs you want easily
 
 
 ## Install
 
 ```
-$ npm i -g alfred-tabs
+$ npm i -g alfred-tabs-improved
 ```
 
 *Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
