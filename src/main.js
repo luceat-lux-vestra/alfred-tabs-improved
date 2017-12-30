@@ -13,10 +13,14 @@ const client = require('./socket-client')
 const runJxa = require('run-jxa')
 
 function isRunning (name) {
-	const appPath = common.getAppPath(name)
-	return runJxa.sync((appPath) => {
-		return Application(appPath).running()
-	}, [appPath])
+	try {
+		const appPath = common.getAppPath(name)
+		return runJxa.sync((appPath) => {
+			return Application(appPath).running()
+		}, [appPath])
+	} catch (err) {
+		return false
+	}
 }
 
 class Worker {
