@@ -1,13 +1,13 @@
 {
-  "name": "alfred-tabs",
-  "version": "0.2.1",
-  "description": "Find Chrome/Safari tabs you want easily",
+  "name": "alfred-tabs-improved",
+  "version": "0.2.2",
+  "description": "Find/Activate/Close browser tabs.",
   "license": "MIT",
-  "repository": "importre/alfred-tabs",
+  "repository": "luceat-lux-vestra/alfred-tabs",
   "author": {
     "name": "",
-    "email": "jaeweheo@gmail.com",
-    "url": "importre.com"
+    "email": "lucete@protonmail.ch",
+    "url": "learnbydoing.ml"
   },
   "engines": {
     "node": ">=4"
@@ -18,24 +18,33 @@
     "preuninstall": "alfy-cleanup"
   },
   "files": [
-    "activation.js",
+    "common",
+    "lib",
+    "messaging",
+    "src",
     "index.js",
     "tabs.js",
     "icon.png",
-    "info.plist",
-    "icons"
+    "info.plist"
   ],
   "keywords": [
     "alfred",
     "workflow",
+    "browser",
     "chrome",
     "safari",
+    "firefox",
+    "opera",
     "tabs",
     "tab"
   ],
   "dependencies": {
     "alfred-notifier": "^0.2.0",
-    "alfy": "^0.6.0"
+    "alfy": "^0.6.0",
+    "plist": "^2.1.0",
+    "run-jxa": "^1.2.0",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.0.4"
   },
   "devDependencies": {
     "alfy-test": "^0.3.0",

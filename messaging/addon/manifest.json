@@ -1,0 +1,31 @@
+{
+  "description": "Search tabs for alfred workflow, aka alfred-tabs",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/find-across-tabs",
+  "manifest_version": 2,
+  "name": "alfred-tabs@firefox",
+  "permissions": [
+	"tabs"
+  ],
+  "icons": {
+	"48": "icons/logo-48.png",
+	"96": "icons/logo-96.png"
+  },
+  "background": {
+	"scripts": [
+	  "socket.io.js",
+	  "background.js"
+	]
+  },
+  "browser_action": {
+	"browser_style": true,
+	"default_title": "alfred-tabs@firefox",
+	"default_icon": "icons/logo-48.png"
+  },
+  "version": "1.0",
+  "applications": {
+	"gecko": {
+	  "strict_min_version": "57.0a1",
+	  "id": "alfred-tabs@firefox"
+	}
+  }
+}

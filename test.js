@@ -1,6 +1,6 @@
-import test from 'ava';
+import test from 'ava'
 
 test(async t => {
-	t.pass();
-});
+	t.pass()
+})
 

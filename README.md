@@ -1,3 +1,20 @@
+## Changes
+
+> Feature support `Firefox`, `Opera` with browser extension.  
+> Update supported browsers work with JXA(applescript) e.g `Yandex`, `Vivaldi` and variants of `Safari` and `Chrome`.  
+> Change use app's default icon.  
+> Change JXA app activation with file path instead of app name.  
+> Remove activation effect
+
+## Caveats
+> Install browser extension manually.  
+> somewhat messy and basic  
+> Firefox rises again, after `Quantum` launched. (but I'll stick with `Chrome`)
+
+## Epilogue
+> Asynchronous!??? had fun with node and js. (I don't know it well)  
+> Who cares? I hope this helpful to you.  
+
 # <div align="center"><img src="./icon.png" width=256><br>alfred-tabs</div>
 
 > :mag: Find Chrome/Safari tabs you want easily

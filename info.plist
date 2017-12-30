@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.importre.alfred.tabs</string>
+	<string>com.lucasarts.alfred.tabs</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
@@ -20,12 +20,22 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A27F7443-15DA-4889-915A-80A717534E6D</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Close this tab</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Jaewe Heo</string>
+	<string></string>
 	<key>description</key>
-	<string>Find Chrome/Safari tabs you want easily</string>
+	<string>Find browser tabs you want easily</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -35,10 +45,37 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node src/main.js activate $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0AAAFAAA-10CE-467E-A20E-29714507EADE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
-				<key>argumenttype</key>
+				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
@@ -54,16 +91,17 @@
 				<key>runningsubtext</key>
 				<string>Searching</string>
 				<key>script</key>
-				<string>osascript -l JavaScript tabs.js "$1"
+				<string>./node_modules/.bin/run-node messaging/broker/host.js &lt;/dev/null &amp;&gt;/dev/null &amp;
+./node_modules/.bin/run-node src/main.js query $1
 ./node_modules/.bin/run-node index.js</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string></string>
+				<string>Update available: 0.2.2 → 0.2.1. Run `npm install -g alfred-tabs`</string>
 				<key>title</key>
-				<string>Find a tab of Chrome or Safari</string>
+				<string>Find/Activate/Close browser tabs.</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -84,7 +122,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>osascript -l JavaScript activation.js "$1"</string>
+				<string>./node_modules/.bin/run-node src/main.js close $1</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -95,7 +133,7 @@
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>0AAAFAAA-10CE-467E-A20E-29714507EADE</string>
+			<string>A27F7443-15DA-4889-915A-80A717534E6D</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -114,12 +152,21 @@
 		<key>58EEB6AF-4E50-4EC5-8611-C4A6C376E1C6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>60</integer>
+			<integer>10</integer>
 			<key>ypos</key>
-			<integer>60</integer>
+			<integer>120</integer>
+		</dict>
+		<key>A27F7443-15DA-4889-915A-80A717534E6D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>250</integer>
+			<key>ypos</key>
+			<integer>180</integer>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string>0.2.1</string>
 	<key>webaddress</key>
-	<string>https://github.com/importre/alfred-tabs</string>
+	<string>https://github.com/luceat-lux-vestra/alfred-search-tabs</string>
 </dict>
 </plist>
