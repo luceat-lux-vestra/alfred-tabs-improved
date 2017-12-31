@@ -1,6 +1,6 @@
 {
   "name": "alfred-tabs-improved",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Find/Activate/Close browser tabs.",
   "license": "MIT",
   "repository": "luceat-lux-vestra/alfred-tabs",
