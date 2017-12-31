@@ -3,11 +3,11 @@
 
 const {PORT} = require('../../common/constants')
 
-var app = require('express')();
-var server = require('http').Server(app);
-var io = require('socket.io')(server);
+var io = require('socket.io')();
+io.listen(PORT);
 
-server.listen(PORT)
+console.log('Listening to port 3000');
+
 
 io.on('connection', function (socket) {
 	socket.emit('news', {hello: 'world'})

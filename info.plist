@@ -91,7 +91,8 @@
 				<key>runningsubtext</key>
 				<string>Searching</string>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node messaging/broker/host.js &lt;/dev/null &amp;&gt;/dev/null &amp;
+				<string>#kill $(ps aux | grep host.js | awk '{print $2}')
+./node_modules/.bin/run-node messaging/broker/host.js &lt;/dev/null &amp;&gt;/dev/null &amp;
 ./node_modules/.bin/run-node src/main.js query $1
 ./node_modules/.bin/run-node index.js</string>
 				<key>scriptargtype</key>
@@ -165,7 +166,7 @@
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>0.2.1</string>
+	<string>0.2.5</string>
 	<key>webaddress</key>
 	<string>https://github.com/luceat-lux-vestra/alfred-search-tabs</string>
 </dict>
