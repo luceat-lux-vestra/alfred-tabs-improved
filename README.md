@@ -8,7 +8,8 @@
 > Remove activation effect
 
 ## Caveats
-> Install browser extension manually.  
+> It works OOB with `Safari`, `Chrome`, or `Chromium` based browser which supports `applescript` well. If it's not working, just add your browser name to `SUPPORTED_BROWSER` and `CHROMIUM` section in the `tabs.js` for jxa and `constants.js` for node  
+> Install browser extension manually if you want to use this with `Firefox` or `Opera`.  
 > somewhat messy and basic  
 > installation size is bigger than original one. because of `uws`, it takes about `10 MB` alone.
 > Firefox rises again, after `Quantum` launched. (but I'll stick with `Chrome`)
@@ -19,7 +20,7 @@
 
 # <div align="center"><img src="./icon.png" width=256><br>alfred-tabs</div>
 
-> :mag: Find browser tabs you want easily
+> :mag: Find/Activate/Close browser tabs you want easily
 
 
 ## Install
