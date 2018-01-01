@@ -12,7 +12,7 @@
 > Install browser extension manually if you want to use this with `Firefox` or `Opera`. (`messaging/addon-firefox`: firefox, `messaging/addon-oprera`: opera)   
 > Firefox: go to `about:config` page then change `xpinstall.signatures.required` value True to False. [link](https://support.mozilla.org/en-US/questions/1101877)  
 > Firefox: compress files in addon-firefox folder to single zip archive file, `about:addons` - `Extensions` page  
-> Firefox: tools button - `Install Add-on From File` and locate/open
+> Firefox: tools button - `Install Add-on From File` and locate/open  
 > Opera: It's easy. Go to `Extensions` page. Enable `Developer Mode` - `Load Unpacked Extension...` and locate `/usr/local/lib/node_modules/alfred-tabs-improved/messaging/addon-opera/`, press `Select` button.
 > (Default node global path: `/usr/local/lib/node_modules/`)
 > somewhat messy and basic  
