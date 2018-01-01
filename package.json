@@ -1,11 +1,11 @@
 {
   "name": "alfred-tabs-improved",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Find/Activate/Close browser tabs.",
   "license": "MIT",
   "repository": "luceat-lux-vestra/alfred-tabs",
   "author": {
-    "name": "",
+    "name": "luceat-lux-vestra",
     "email": "lucete@protonmail.ch",
     "url": "learnbydoing.ml"
   },

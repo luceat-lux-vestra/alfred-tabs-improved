@@ -35,7 +35,7 @@
 	<key>createdby</key>
 	<string></string>
 	<key>description</key>
-	<string>Find browser tabs you want easily</string>
+	<string>Find/Activate/Close browser tabs you want easily</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -100,7 +100,7 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Update available: 0.2.5 → Run `npm install -g alfred-tabs-improved`</string>
+				<string>Update available: 0.2.6 → Run `npm install -g alfred-tabs-improved`</string>
 				<key>title</key>
 				<string>Find/Activate/Close browser tabs.</string>
 				<key>type</key>
@@ -166,7 +166,7 @@
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>0.2.5</string>
+	<string>0.2.6</string>
 	<key>webaddress</key>
 	<string>https://github.com/luceat-lux-vestra/alfred-search-tabs</string>
 </dict>
