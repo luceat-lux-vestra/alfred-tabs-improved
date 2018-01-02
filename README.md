@@ -14,8 +14,8 @@
 > Firefox: compress files in addon-firefox folder to single zip archive file, `about:addons` - `Extensions` page  
 > Firefox: tools button - `Install Add-on From File` and locate/open  
 > Opera: It's easy. Go to `Extensions` page. Enable `Developer Mode` - `Load Unpacked Extension...` and locate `/usr/local/lib/node_modules/alfred-tabs-improved/messaging/addon-opera/`, press `Select` button.
-> (Default node global path: `/usr/local/lib/node_modules/`)
-> somewhat messy and basic  
+> (Default node global path: `/usr/local/lib/node_modules/`)  
+> **somewhat messy and basic**  
 > installation size is bigger than original one. because of `uws`, it takes about `10 MB` alone.  
 > Firefox rises again, after `Quantum` launched. (but I'll stick with `Chrome`)
 
