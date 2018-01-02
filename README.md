@@ -1,5 +1,5 @@
 ## Changes
-> Add `tabs.alfredworkflow` and `tabs-with-node-binary.alfredworkflow` for someone don't have/wanna node/npm.
+> Add `tabs.alfredworkflow` and `tabs-with-node-binary.alfredworkflow` for someone don't have/wanna node/npm  
 > Feature support `Firefox`, `Opera` with browser extension.  
 > Update list all tabs first you input keyword `t`, which means `argument optional` in Alfred  
 > Update supported browsers work with JXA(applescript) e.g `Yandex`, `Vivaldi` and variants of `Safari` and `Chrome`.  
