@@ -1,4 +1,5 @@
 ## Changes
+> Publish extensions to [AMO](https://addons.mozilla.org/en-US/firefox/addon/alfred-tabs-firefox/) and [AOC]()  
 > Add `tabs.alfredworkflow` and `tabs-with-node-binary.alfredworkflow` for someone don't have/wanna node/npm  
 > Feature support `Firefox`, `Opera` with browser extension.  
 > Update list all tabs first you input keyword `t`, which means `argument optional` in Alfred  
@@ -8,16 +9,17 @@
 > Remove activation effect
 
 ## Caveats
-> It works OOB with `Safari`, `Chrome`, or `Chromium` based browser which supports `applescript` well. If it's not working, just add your browser name to `SUPPORTED_BROWSER` and `CHROMIUM` section in the `tabs.js` for jxa and `constants.js` for node  
-> Install browser extension manually if you want to use this with `Firefox` or `Opera`. (`messaging/addon-firefox`: firefox, `messaging/addon-oprera`: opera)   
-> Firefox: go to `about:config` page then change `xpinstall.signatures.required` value True to False. [link](https://support.mozilla.org/en-US/questions/1101877)  
-> Firefox: compress files in addon-firefox folder to single zip archive file, `about:addons` - `Extensions` page  
-> Firefox: tools button - `Install Add-on From File` and locate/open  
-> Opera: It's easy. Go to `Extensions` page. Enable `Developer Mode` - `Load Unpacked Extension...` and locate `/usr/local/lib/node_modules/alfred-tabs-improved/messaging/addon-opera/`, press `Select` button.
+> It works OOB with `Safari`, `Chrome`, or `Chromium` based browser which supports `applescript` well. If it's not working, just add your browser name to `SUPPORTED_BROWSER` and `CHROMIUM` section in the `tabs.js` for jxa and `constants.js` for node   
+----
+> **Install browser extension**  
+> Firefox: https://addons.mozilla.org/en-US/firefox/addon/alfred-tabs-firefox/  
+> Opera: Awaiting moderation, install it manually.  
+> Opera: It's easy. Go to `Extensions` page. Enable `Developer Mode` - `Load Unpacked Extension...` and locate `/usr/local/lib/node_modules/alfred-tabs-improved/messaging/addon-opera/`, press `Select` button.  
 > (Default node global path: `/usr/local/lib/node_modules/`)  
+----
 > **somewhat messy and basic**  
 > installation size is bigger than original one. because of `uws`, it takes about `10 MB` alone.  
-> Firefox rises again, after `Quantum` launched. (but I'll stick with `Chrome`)
+> Firefox rises again, after `Quantum` launched. (but I'll stick with `Chrome`)  
 
 ## Epilogue
 > Asynchronous!??? had fun with node and js. (I don't know it well)  

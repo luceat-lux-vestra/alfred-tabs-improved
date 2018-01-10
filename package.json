@@ -1,6 +1,6 @@
 {
   "name": "alfred-tabs-improved",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Find/Activate/Close browser tabs.",
   "license": "MIT",
   "repository": "luceat-lux-vestra/alfred-tabs",
@@ -20,7 +20,8 @@
   "files": [
     "common",
     "lib",
-    "messaging",
+    "messaging/addon-opera",
+    "messaging/broker",
     "src",
     "index.js",
     "tabs.js",

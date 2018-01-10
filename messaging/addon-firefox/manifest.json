@@ -1,6 +1,6 @@
 {
-  "description": "Search tabs for alfred workflow, aka alfred-tabs",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/find-across-tabs",
+  "description": "Search tabs for alfred workflow, aka alfred-tabs-improved",
+  "homepage_url": "https://github.com/luceat-lux-vestra/alfred-tabs-improved",
   "manifest_version": 2,
   "name": "alfred-tabs@firefox",
   "permissions": [
