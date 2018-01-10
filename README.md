@@ -1,5 +1,5 @@
 ## Changes
-> Publish extensions to [AMO](https://addons.mozilla.org/en-US/firefox/addon/alfred-tabs-firefox/) and [AOC]()  
+> Publish extensions to [AMO](https://addons.mozilla.org/en-US/firefox/addon/alfred-tabs-firefox/) and ~~[AOC]()~~  
 > Add `tabs.alfredworkflow` and `tabs-with-node-binary.alfredworkflow` for someone don't have/wanna node/npm  
 > Feature support `Firefox`, `Opera` with browser extension.  
 > Update list all tabs first you input keyword `t`, which means `argument optional` in Alfred  
@@ -13,7 +13,7 @@
 ----
 > **Install browser extension**  
 > Firefox: https://addons.mozilla.org/en-US/firefox/addon/alfred-tabs-firefox/  
-> Opera: Awaiting moderation, install it manually.  
+> Opera: aoc moderation process..., I gave up, install it manually.  
 > Opera: It's easy. Go to `Extensions` page. Enable `Developer Mode` - `Load Unpacked Extension...` and locate `/usr/local/lib/node_modules/alfred-tabs-improved/messaging/addon-opera/`, press `Select` button.  
 > (Default node global path: `/usr/local/lib/node_modules/`)  
 ----

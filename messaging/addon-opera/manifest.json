@@ -18,8 +18,7 @@
   },
   "browser_action": {
 	"browser_style": true,
-	"default_title": "alfred-tabs@opera",
-	"default_icon": "icons/logo-48.png"
+	"default_title": "alfred-tabs@opera"
   },
   "version": "1.0"
 }
