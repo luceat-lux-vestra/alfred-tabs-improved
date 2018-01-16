@@ -1,5 +1,5 @@
 ## Changes
-> Publish extensions to [AMO](https://addons.mozilla.org/en-US/firefox/addon/alfred-tabs-firefox/) and ~~[AOC]()~~  
+> Publish extensions to [AMO](https://addons.mozilla.org/en-US/firefox/addon/alfred-tabs-ff/) and ~~[AOC]()~~  
 > Add `tabs.alfredworkflow` and `tabs-with-node-binary.alfredworkflow` for someone don't have/wanna node/npm  
 > Feature support `Firefox`, `Opera` with browser extension.  
 > Update list all tabs first you input keyword `t`, which means `argument optional` in Alfred  
