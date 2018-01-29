@@ -2,7 +2,7 @@
   "description": "Search tabs for alfred workflow, aka alfred-tabs-improved",
   "homepage_url": "https://github.com/luceat-lux-vestra/alfred-tabs-improved",
   "manifest_version": 2,
-  "name": "alfred-tabs@opera",
+  "name": "alfred-tabs@opr",
   "permissions": [
 	"tabs"
   ],
@@ -18,7 +18,7 @@
   },
   "browser_action": {
 	"browser_style": true,
-	"default_title": "alfred-tabs@opera"
+	"default_title": "alfred-tabs@opr"
   },
   "version": "1.0"
 }

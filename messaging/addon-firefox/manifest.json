@@ -2,7 +2,7 @@
   "description": "Search tabs for alfred workflow, aka alfred-tabs-improved",
   "homepage_url": "https://github.com/luceat-lux-vestra/alfred-tabs-improved",
   "manifest_version": 2,
-  "name": "alfred-tabs@firefox",
+  "name": "alfred-tabs@ff",
   "permissions": [
 	"tabs"
   ],
@@ -18,14 +18,14 @@
   },
   "browser_action": {
 	"browser_style": true,
-	"default_title": "alfred-tabs@firefox",
+	"default_title": "alfred-tabs@ff",
 	"default_icon": "icons/logo-48.png"
   },
   "version": "1.0",
   "applications": {
 	"gecko": {
 	  "strict_min_version": "57.0a1",
-	  "id": "alfred-tabs@firefox"
+	  "id": "alfred-tabs@ff"
 	}
   }
 }

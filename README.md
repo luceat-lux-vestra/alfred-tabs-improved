@@ -12,8 +12,8 @@
 > It works OOB with `Safari`, `Chrome`, or `Chromium` based browser which supports `applescript` well. If it's not working, just add your browser name to `SUPPORTED_BROWSER` and `CHROMIUM` section in the `tabs.js` for jxa and `constants.js` for node   
 ----
 > **Install browser extension**  
-> Firefox: https://addons.mozilla.org/en-US/firefox/addon/alfred-tabs-firefox/  
-> Opera: aoc moderation process..., I gave up, install it manually.  
+> Firefox: https://addons.mozilla.org/en-US/firefox/addon/alfred-tabs-ff/  
+> Opera: Awaiting moderation, install it manually.  
 > Opera: It's easy. Go to `Extensions` page. Enable `Developer Mode` - `Load Unpacked Extension...` and locate `/usr/local/lib/node_modules/alfred-tabs-improved/messaging/addon-opera/`, press `Select` button.  
 > (Default node global path: `/usr/local/lib/node_modules/`)  
 ----
