@@ -1,7 +1,7 @@
 ## NO-LONGER-MAINTAINED
-> Just use [alfred-tabs](https://www.npmjs.com/package/alfred-tabs) instead, without Firefox and Opera support.
-> I can't manage addons anymore.
-> It's still possible with addons if you need that much!
+> Just use [alfred-tabs](https://www.npmjs.com/package/alfred-tabs) instead, without Firefox and Opera support.  
+> I can't manage addons anymore.  
+> It's still possible with addons if you need that much!  
 
 ## Changes
 > Publish extensions to ~~[AMO]~~(https://addons.mozilla.org/en-US/firefox/addon/alfred-tabs-ff/) and ~~[AOC]()~~  
