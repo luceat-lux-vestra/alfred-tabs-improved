@@ -1,5 +1,6 @@
 ## NO-LONGER-MAINTAINED
-> Just use [alfred-tabs](https://www.npmjs.com/package/alfred-tabs) instead, without Firefox and Opera support.  
+> [search-browser-tabs-for-alfred](https://github.com/luceat-lux-vestra/search-browser-tabs-for-alfred), I think it's enough to you.  
+> or [alfred-tabs](https://www.npmjs.com/package/alfred-tabs)  
 > I can't manage addons anymore.  
 > It's still possible with addons if you need that much!  
 
